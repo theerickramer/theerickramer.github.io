@@ -1,0 +1,86 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css?family=Karla|Roboto:thin');
+@font-face {
+  font-family: 'Kurt';
+  src: url('../fonts/Kurt-Regular.otf') format("opentype");;
+}
+
+html,
+body {
+  --black: #000000;
+  --blue: #00dfcf;
+  --green: #9ef100;
+  --orange: #ff6f00;
+  --pink: #d80076;
+  --purple: #7901bb;
+  --white: #ffffff;
+  --yellow: #ffff00;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: var(--green);
+  font-family: 'Kurt';
+  font-size: 6rem;
+}
+
+h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 2rem;
+}
+
+a,
+button,
+p {
+  font-size: 1.25rem;
+}
+
+.angled {
+  display: block;
+  align-self: center;
+  margin: 0 auto;
+  transform: rotate(-10deg);
+}
+
+#background-vid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  z-index: -3;
+}
+
+.gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(var(--purple), var(--blue));
+  opacity: 0.6;
+  z-index: -2;
+}
+
+.vignette {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(transparent, black);
+  z-index: -1;
+}
