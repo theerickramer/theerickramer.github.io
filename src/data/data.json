@@ -1,0 +1,183 @@
+{
+  "header": {
+    "title": "Eric Kramer",
+    "description": "#FullStackDeveloper #Musician #Technologist"
+  },
+  "main": {
+    "sections": [
+      {
+        "title": "About",
+        "description": "",
+        "detail": []
+      },
+      {
+        "title": "Work",
+        "detail": [
+          {
+            "name": "Showtime",
+            "description": "Took the lead on https://www.sho.com/schedule & Email Gate on https://www.sho.com/video/66468/the-chi-season-2-premiere-tvma",
+            "logo": "assets/images/logos/showtime.png",
+            "url": "https://www.sho.com"
+          },
+          {
+            "name": "Kaplan Test Prep",
+            "description": "",
+            "logo": "assets/images/logos/Kaplan.png",
+            "url": "https://www.kaptest.com"
+          },
+          {
+            "name": "The Knot",
+            "description": "",
+            "logo": "assets/images/logos/the-knot.png",
+            "url": "https://www.theknot.com/gs/guest-list"
+          }
+        ]
+      },
+      {
+        "title": "Projects",
+        "detail": [
+          {
+            "name": "RandoMOMA",
+            "description": "A beautiful random image from the MOMA collection",
+            "url": "http://randomoma.herokuapp.com",
+            "image": ""
+          },
+          {
+            "name": "Hotlinks",
+            "description": "All the hottest links on the internet",
+            "url": "http://hothotlinks.herokuapp.com",
+            "image": ""
+          },
+          {
+            "name": "Recloud",
+            "description": "A Soundcloud powered DJ app",
+            "url": "http://recloud.audio",
+            "image": ""
+          },
+          {
+            "name": "Toneluster",
+            "description": "A music technology blog",
+            "url": "http://toneluster.com",
+            "image": ""
+          }
+        ]
+      },
+      {
+        "title": "Skills",
+        "detail": [
+          {
+            "name": "AWS",
+            "logo": "assets/images/logos/aws_logo_smile_1200x630.png"
+          },
+          {
+            "name": "Express",
+            "logo": "assets/images/logos/express.jpeg"
+          },
+          {
+            "name": "Git",
+            "logo": "assets/images/logos/git.png"
+          },
+          {
+            "name": "Github",
+            "logo": "assets/images/logos/Octocat.png"
+          },
+          {
+            "name": "Gulp",
+            "logo": "assets/images/logos/Gulp.png"
+          },
+          {
+            "name": "Heroku",
+            "logo": "assets/images/logos/heroku.png"
+          },
+          {
+            "name": "HTML5",
+            "logo": "assets/images/logos/html5.png"
+          },
+          {
+            "name": "Jasmine + Karma",
+            "logo": "assets/images/logos/jasmine+karma.png"
+          },
+          {
+            "name": "Jest",
+            "logo": "assets/images/logos/jest.png"
+          },
+          {
+            "name": "jQuery",
+            "logo": "assets/images/logos/jquery-mark-light.gif"
+          },
+          {
+            "name": "Javascript",
+            "logo": "assets/images/logos/js.jpg"
+          },
+          {
+            "name": "MobX",
+            "logo": "assets/images/logos/mobx.png"
+          },
+          {
+            "name": "MongoDB",
+            "logo": "assets/images/logos/mongodb-logo-rgb-j6w271g1xn.jpg"
+          },
+          {
+            "name": "Node",
+            "logo": "assets/images/logos/nodejs.png"
+          },
+          {
+            "name": "Python",
+            "logo": "assets/images/logos/python-logo-master-v3-TM.png"
+          },
+          {
+            "name": "React",
+            "logo": "assets/images/logos/react.png"
+          },
+          {
+            "name": "Redux",
+            "logo": "assets/images/logos/redux-logo-landscape.png"
+          },
+          {
+            "name": "Responsive CSS",
+            "logo": "assets/images/logos/Responsive.png"
+          },
+                    {
+            "name": "RSpec",
+            "logo": "assets/images/logos/rspec.jpg"
+          },
+          {
+            "name": "Ruby",
+            "logo": "assets/images/logos/Ruby_logo-1024px.png"
+          },
+          {
+            "name": "Ruby On Rails",
+            "logo": "assets/images/logos/Ruby_On_Rails_Logo.png"
+          },
+          {
+            "name": "Vue",
+            "logo": "assets/images/logos/vue.png"
+          },
+                    {
+            "name": "Webpack",
+            "logo": "assets/images/logos/webpack.png"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "name": "Github",
+        "icon": "assets/images/icons/github.svg",
+        "url": "https://github.com/theerickramer"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "assets/images/icons/linkedin.svg",
+        "url": "https://linkedin.com/in/theerickramer"
+      },
+      {
+        "name": "Soundcloud",
+        "icon": "assets/images/icons/soundcloud.svg",
+        "url": "https://soundcloud.com/theerickramer"
+      }
+    ]
+  }
+}
