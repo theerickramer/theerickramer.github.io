@@ -98,16 +98,16 @@
             "logo": "assets/images/logos/jasmine+karma.png"
           },
           {
+            "name": "Javascript",
+            "logo": "assets/images/logos/js.jpg"
+          },
+          {
             "name": "Jest",
             "logo": "assets/images/logos/jest.png"
           },
           {
             "name": "jQuery",
             "logo": "assets/images/logos/jquery-mark-light.gif"
-          },
-          {
-            "name": "Javascript",
-            "logo": "assets/images/logos/js.jpg"
           },
           {
             "name": "MobX",
@@ -137,7 +137,7 @@
             "name": "Responsive CSS",
             "logo": "assets/images/logos/Responsive.png"
           },
-                    {
+          {
             "name": "RSpec",
             "logo": "assets/images/logos/rspec.jpg"
           },
@@ -153,7 +153,7 @@
             "name": "Vue",
             "logo": "assets/images/logos/vue.png"
           },
-                    {
+          {
             "name": "Webpack",
             "logo": "assets/images/logos/webpack.png"
           }
