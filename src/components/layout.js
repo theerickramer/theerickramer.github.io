@@ -25,11 +25,18 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <video
+          id="background-vid"
+          src="clouds-timelapse.mp4"
+          loop
+          autoPlay
+          muted
+        />
+        <div className="gradient" />
+        <div className="vignette" />
+        <Header />
         <main>{children}</main>
-        <footer>
-          {/* © {new Date().getFullYear()} */}
-        </footer>
+        <footer>{/* © {new Date().getFullYear()} */}</footer>
       </>
     )}
   />
