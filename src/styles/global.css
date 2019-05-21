@@ -1,9 +1,5 @@
 @import './reset.css';
 @import url('https://fonts.googleapis.com/css?family=Karla|Roboto:thin');
-@font-face {
-  font-family: 'Kurt';
-  src: url('../fonts/Kurt-Regular.otf') format("opentype");;
-}
 
 html,
 body {
@@ -25,9 +21,7 @@ body {
 }
 
 h1 {
-  color: var(--green);
-  font-family: 'Kurt';
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
 h2 {
