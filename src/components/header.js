@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <StaticQuery
     query={graphql`
       query HeaderQuery {
