@@ -34,11 +34,8 @@ p {
   font-size: 1.25rem;
 }
 
-.angled {
-  display: block;
-  align-self: center;
-  margin: 0 auto;
-  transform: rotate(-10deg);
+main {
+  background: var(--black);
 }
 
 #background-vid {
@@ -74,6 +71,7 @@ p {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(transparent, black);
+  background: radial-gradient(circle, transparent, var(--black));
   z-index: -1;
 }
+

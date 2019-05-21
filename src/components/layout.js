@@ -14,9 +14,6 @@ import "./layout.css"
 
 const Layout = ({ children }) => (
   <>
-    <video id="background-vid" src="clouds-timelapse.mp4" loop autoPlay muted />
-    <div className="gradient" />
-    <div className="vignette" />
     <Header />
     <main>{children}</main>
     <footer>{/* © {new Date().getFullYear()} */}</footer>

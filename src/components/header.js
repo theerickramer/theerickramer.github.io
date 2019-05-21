@@ -21,6 +21,15 @@ const Header = () => (
       const { title, description } = data.allDataJson.edges[0].node.header;
       return (
         <header>
+          <video
+            id="background-vid"
+            src="clouds-timelapse.mp4"
+            loop
+            autoPlay
+            muted
+          />
+          <div className="gradient" />
+          <div className="vignette" />
           <h1>{title}</h1>
           <h2>{description}</h2>
         </header>
