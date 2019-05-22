@@ -4,21 +4,17 @@ import { StaticQuery, graphql } from "gatsby"
 const Header = () => (
   <StaticQuery
     query={graphql`
-      query HeaderQuery {
-        allDataJson {
-          edges {
-            node {
-              header {
-                title
-                description
-              }
-            }
+      query {
+        site {
+          siteMetadata {
+            title
+            description
           }
         }
       }
     `}
     render={data => {
-      const { title, description } = data.allDataJson.edges[0].node.header;
+      const { title, description } = data.site.siteMetadata;
       return (
         <header>
           <video

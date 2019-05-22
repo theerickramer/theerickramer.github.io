@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Eric Kramer`,
-    description: `The official website of Eric Kramer`,
+    description: `#FullStackDeveloper #Musician #Technologist`,
     author: `Eric Kramer`,
   },
   plugins: [

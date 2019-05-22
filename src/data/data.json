@@ -1,168 +1,161 @@
-{
-  "header": {
-    "title": "Eric Kramer",
-    "description": "#FullStackDeveloper #Musician #Technologist"
+[
+  {
+    "title": "About",
+    "description": "As a kid I dabbled in making text based adventure games, but my first real exposure to code was through my studies of music technology at NYU. After several years of working in the music industry and playing in a band, I decided to take my interest in programming to the next level. After much self-learning, I eventually enrolled in General Assembly's Web Development Immersive program, where I spent around 12 hours a day for 3 months absorbing all the knowledge my brain could possibly hold. I am now a full stack developer, ready to build awesome stuff and still hungry to learn. ",
+    "detail": []
   },
-  "main": {
-    "sections": [
+  {
+    "title": "Work",
+    "detail": [
       {
-        "title": "About",
-        "description": "As a kid I dabbled in making text based adventure games, but my first real exposure to code was through my studies of music technology at NYU. After several years of working in the music industry and playing in a band, I decided to take my interest in programming to the next level. After much self-learning, I eventually enrolled in General Assembly's Web Development Immersive program, where I spent around 12 hours a day for 3 months absorbing all the knowledge my brain could possibly hold. I am now a full stack developer, ready to build awesome stuff and still hungry to learn. ",
-        "detail": []
+        "name": "Showtime",
+        "description": "Took the lead on https://www.sho.com/schedule & Email Gate on https://www.sho.com/video/66468/the-chi-season-2-premiere-tvma",
+        "logo": "assets/images/logos/showtime.png",
+        "url": "https://www.sho.com"
       },
       {
-        "title": "Work",
-        "detail": [
-          {
-            "name": "Showtime",
-            "description": "Took the lead on https://www.sho.com/schedule & Email Gate on https://www.sho.com/video/66468/the-chi-season-2-premiere-tvma",
-            "logo": "assets/images/logos/showtime.png",
-            "url": "https://www.sho.com"
-          },
-          {
-            "name": "Kaplan Test Prep",
-            "description": "",
-            "logo": "assets/images/logos/Kaplan.png",
-            "url": "https://www.kaptest.com"
-          },
-          {
-            "name": "The Knot",
-            "description": "",
-            "logo": "assets/images/logos/the-knot.png",
-            "url": "https://www.theknot.com/gs/guest-list"
-          }
-        ]
+        "name": "Kaplan Test Prep",
+        "description": "",
+        "logo": "assets/images/logos/Kaplan.png",
+        "url": "https://www.kaptest.com"
       },
       {
-        "title": "Projects",
-        "detail": [
-          {
-            "name": "RandoMOMA",
-            "description": "A beautiful random image from the MOMA collection",
-            "url": "http://randomoma.herokuapp.com",
-            "image": ""
-          },
-          {
-            "name": "Hotlinks",
-            "description": "All the hottest links on the internet",
-            "url": "http://hothotlinks.herokuapp.com",
-            "image": ""
-          },
-          {
-            "name": "Recloud",
-            "description": "A Soundcloud powered DJ app",
-            "url": "http://recloud.audio",
-            "image": ""
-          },
-          {
-            "name": "Toneluster",
-            "description": "A music technology blog",
-            "url": "http://toneluster.com",
-            "image": ""
-          }
-        ]
-      },
-      {
-        "title": "Skills",
-        "detail": [
-          {
-            "name": "AWS",
-            "logo": "assets/images/logos/aws_logo_smile_1200x630.png"
-          },
-          {
-            "name": "Express",
-            "logo": "assets/images/logos/express.jpeg"
-          },
-          {
-            "name": "Git",
-            "logo": "assets/images/logos/git.png"
-          },
-          {
-            "name": "Github",
-            "logo": "assets/images/logos/Octocat.png"
-          },
-          {
-            "name": "Gulp",
-            "logo": "assets/images/logos/Gulp.png"
-          },
-          {
-            "name": "Heroku",
-            "logo": "assets/images/logos/heroku.png"
-          },
-          {
-            "name": "HTML5",
-            "logo": "assets/images/logos/html5.png"
-          },
-          {
-            "name": "Jasmine + Karma",
-            "logo": "assets/images/logos/jasmine+karma.png"
-          },
-          {
-            "name": "Javascript",
-            "logo": "assets/images/logos/js.jpg"
-          },
-          {
-            "name": "Jest",
-            "logo": "assets/images/logos/jest.png"
-          },
-          {
-            "name": "jQuery",
-            "logo": "assets/images/logos/jquery-mark-light.gif"
-          },
-          {
-            "name": "MobX",
-            "logo": "assets/images/logos/mobx.png"
-          },
-          {
-            "name": "MongoDB",
-            "logo": "assets/images/logos/mongodb-logo-rgb-j6w271g1xn.jpg"
-          },
-          {
-            "name": "Node",
-            "logo": "assets/images/logos/nodejs.png"
-          },
-          {
-            "name": "Python",
-            "logo": "assets/images/logos/python-logo-master-v3-TM.png"
-          },
-          {
-            "name": "React",
-            "logo": "assets/images/logos/react.png"
-          },
-          {
-            "name": "Redux",
-            "logo": "assets/images/logos/redux-logo-landscape.png"
-          },
-          {
-            "name": "Responsive CSS",
-            "logo": "assets/images/logos/Responsive.png"
-          },
-          {
-            "name": "RSpec",
-            "logo": "assets/images/logos/rspec.jpg"
-          },
-          {
-            "name": "Ruby",
-            "logo": "assets/images/logos/Ruby_logo-1024px.png"
-          },
-          {
-            "name": "Ruby On Rails",
-            "logo": "assets/images/logos/Ruby_On_Rails_Logo.png"
-          },
-          {
-            "name": "Vue",
-            "logo": "assets/images/logos/vue.png"
-          },
-          {
-            "name": "Webpack",
-            "logo": "assets/images/logos/webpack.png"
-          }
-        ]
+        "name": "The Knot",
+        "description": "",
+        "logo": "assets/images/logos/the-knot.png",
+        "url": "https://www.theknot.com/gs/guest-list"
       }
     ]
   },
-  "footer": {
-    "links": [
+  {
+    "title": "Projects",
+    "detail": [
+      {
+        "name": "RandoMOMA",
+        "description": "A beautiful random image from the MOMA collection",
+        "url": "http://randomoma.herokuapp.com",
+        "image": ""
+      },
+      {
+        "name": "Hotlinks",
+        "description": "All the hottest links on the internet",
+        "url": "http://hothotlinks.herokuapp.com",
+        "image": ""
+      },
+      {
+        "name": "Recloud",
+        "description": "A Soundcloud powered DJ app",
+        "url": "http://recloud.audio",
+        "image": ""
+      },
+      {
+        "name": "Toneluster",
+        "description": "A music technology blog",
+        "url": "http://toneluster.com",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "title": "Skills",
+    "detail": [
+      {
+        "name": "AWS",
+        "logo": "assets/images/logos/aws_logo_smile_1200x630.png"
+      },
+      {
+        "name": "Express",
+        "logo": "assets/images/logos/express.jpeg"
+      },
+      {
+        "name": "Git",
+        "logo": "assets/images/logos/git.png"
+      },
+      {
+        "name": "Github",
+        "logo": "assets/images/logos/Octocat.png"
+      },
+      {
+        "name": "Gulp",
+        "logo": "assets/images/logos/Gulp.png"
+      },
+      {
+        "name": "Heroku",
+        "logo": "assets/images/logos/heroku.png"
+      },
+      {
+        "name": "HTML5",
+        "logo": "assets/images/logos/html5.png"
+      },
+      {
+        "name": "Jasmine + Karma",
+        "logo": "assets/images/logos/jasmine+karma.png"
+      },
+      {
+        "name": "Javascript",
+        "logo": "assets/images/logos/js.jpg"
+      },
+      {
+        "name": "Jest",
+        "logo": "assets/images/logos/jest.png"
+      },
+      {
+        "name": "jQuery",
+        "logo": "assets/images/logos/jquery-mark-light.gif"
+      },
+      {
+        "name": "MobX",
+        "logo": "assets/images/logos/mobx.png"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "assets/images/logos/mongodb-logo-rgb-j6w271g1xn.jpg"
+      },
+      {
+        "name": "Node",
+        "logo": "assets/images/logos/nodejs.png"
+      },
+      {
+        "name": "Python",
+        "logo": "assets/images/logos/python-logo-master-v3-TM.png"
+      },
+      {
+        "name": "React",
+        "logo": "assets/images/logos/react.png"
+      },
+      {
+        "name": "Redux",
+        "logo": "assets/images/logos/redux-logo-landscape.png"
+      },
+      {
+        "name": "Responsive CSS",
+        "logo": "assets/images/logos/Responsive.png"
+      },
+      {
+        "name": "RSpec",
+        "logo": "assets/images/logos/rspec.jpg"
+      },
+      {
+        "name": "Ruby",
+        "logo": "assets/images/logos/Ruby_logo-1024px.png"
+      },
+      {
+        "name": "Ruby On Rails",
+        "logo": "assets/images/logos/Ruby_On_Rails_Logo.png"
+      },
+      {
+        "name": "Vue",
+        "logo": "assets/images/logos/vue.png"
+      },
+      {
+        "name": "Webpack",
+        "logo": "assets/images/logos/webpack.png"
+      }
+    ]
+  },
+  {
+    "title": "Links",
+    "detail": [
       {
         "name": "Github",
         "icon": "assets/images/icons/github.svg",
@@ -180,4 +173,4 @@
       }
     ]
   }
-}
+]

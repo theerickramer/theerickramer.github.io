@@ -1,10 +1,30 @@
 import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 
-const About = ({ title, description }) => (
-  <>
-    <h2>{title}</h2>
-    <p>{description}</p>
-  </>
+const About = () => (
+  <StaticQuery
+    query={graphql`
+      query {
+        allDataJson(filter: { title: { eq: "About" } }) {
+          edges {
+            node {
+              title
+              description
+            }
+          }
+        }
+      }
+    `}
+    render={data => {
+      const { title, description } = data.allDataJson.edges[0].node
+      return (
+        <>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </>
+      )
+    }}
+  />
 )
 
 export default About
