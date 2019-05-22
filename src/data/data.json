@@ -34,25 +34,25 @@
         "name": "RandoMOMA",
         "description": "A beautiful random image from the MOMA collection",
         "url": "http://randomoma.herokuapp.com",
-        "image": ""
+        "image": "/images/randomoma.pgn"
       },
       {
         "name": "Hotlinks",
         "description": "All the hottest links on the internet",
         "url": "http://hothotlinks.herokuapp.com",
-        "image": ""
+        "image": "/images/hotlinks.png"
       },
       {
         "name": "Recloud",
         "description": "A Soundcloud powered DJ app",
         "url": "http://recloud.audio",
-        "image": ""
+        "image": "/images/recloud.png"
       },
       {
         "name": "Toneluster",
         "description": "A music technology blog",
         "url": "http://toneluster.com",
-        "image": ""
+        "image": "/images/toneluster.png"
       }
     ]
   },
