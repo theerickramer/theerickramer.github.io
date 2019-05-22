@@ -18,10 +18,10 @@ const About = () => (
     render={data => {
       const { title, description } = data.allDataJson.edges[0].node
       return (
-        <>
+        <section>
           <h2>{title}</h2>
           <p>{description}</p>
-        </>
+        </section>
       )
     }}
   />

@@ -10,19 +10,19 @@
       {
         "name": "Showtime",
         "description": "Took the lead on https://www.sho.com/schedule & Email Gate on https://www.sho.com/video/66468/the-chi-season-2-premiere-tvma",
-        "logo": "assets/images/logos/showtime.png",
+        "logo": "/logos/showtime.png",
         "url": "https://www.sho.com"
       },
       {
         "name": "Kaplan Test Prep",
         "description": "",
-        "logo": "assets/images/logos/Kaplan.png",
+        "logo": "/logos/Kaplan.png",
         "url": "https://www.kaptest.com"
       },
       {
         "name": "The Knot",
         "description": "",
-        "logo": "assets/images/logos/the-knot.png",
+        "logo": "/logos/the-knot.png",
         "url": "https://www.theknot.com/gs/guest-list"
       }
     ]
@@ -61,95 +61,95 @@
     "detail": [
       {
         "name": "AWS",
-        "logo": "assets/images/logos/aws_logo_smile_1200x630.png"
+        "logo": "/logos/aws_logo_smile_1200x630.png"
       },
       {
         "name": "Express",
-        "logo": "assets/images/logos/express.jpeg"
+        "logo": "/logos/express.jpeg"
       },
       {
         "name": "Git",
-        "logo": "assets/images/logos/git.png"
+        "logo": "/logos/git.png"
       },
       {
         "name": "Github",
-        "logo": "assets/images/logos/Octocat.png"
+        "logo": "/logos/Octocat.png"
       },
       {
         "name": "Gulp",
-        "logo": "assets/images/logos/Gulp.png"
+        "logo": "/logos/Gulp.png"
       },
       {
         "name": "Heroku",
-        "logo": "assets/images/logos/heroku.png"
+        "logo": "/logos/heroku.png"
       },
       {
         "name": "HTML5",
-        "logo": "assets/images/logos/html5.png"
+        "logo": "/logos/html5.png"
       },
       {
         "name": "Jasmine + Karma",
-        "logo": "assets/images/logos/jasmine+karma.png"
+        "logo": "/logos/jasmine+karma.png"
       },
       {
         "name": "Javascript",
-        "logo": "assets/images/logos/js.jpg"
+        "logo": "/logos/js.jpg"
       },
       {
         "name": "Jest",
-        "logo": "assets/images/logos/jest.png"
+        "logo": "/logos/jest.png"
       },
       {
         "name": "jQuery",
-        "logo": "assets/images/logos/jquery-mark-light.gif"
+        "logo": "/logos/jquery-mark-light.gif"
       },
       {
         "name": "MobX",
-        "logo": "assets/images/logos/mobx.png"
+        "logo": "/logos/mobx.png"
       },
       {
         "name": "MongoDB",
-        "logo": "assets/images/logos/mongodb-logo-rgb-j6w271g1xn.jpg"
+        "logo": "/logos/mongodb-logo-rgb-j6w271g1xn.jpg"
       },
       {
         "name": "Node",
-        "logo": "assets/images/logos/nodejs.png"
+        "logo": "/logos/nodejs.png"
       },
       {
         "name": "Python",
-        "logo": "assets/images/logos/python-logo-master-v3-TM.png"
+        "logo": "/logos/python-logo-master-v3-TM.png"
       },
       {
         "name": "React",
-        "logo": "assets/images/logos/react.png"
+        "logo": "/logos/react.png"
       },
       {
         "name": "Redux",
-        "logo": "assets/images/logos/redux-logo-landscape.png"
+        "logo": "/logos/redux-logo-landscape.png"
       },
       {
         "name": "Responsive CSS",
-        "logo": "assets/images/logos/Responsive.png"
+        "logo": "/logos/Responsive.png"
       },
       {
         "name": "RSpec",
-        "logo": "assets/images/logos/rspec.jpg"
+        "logo": "/logos/rspec.jpg"
       },
       {
         "name": "Ruby",
-        "logo": "assets/images/logos/Ruby_logo-1024px.png"
+        "logo": "/logos/Ruby_logo-1024px.png"
       },
       {
         "name": "Ruby On Rails",
-        "logo": "assets/images/logos/Ruby_On_Rails_Logo.png"
+        "logo": "/logos/Ruby_On_Rails_Logo.png"
       },
       {
         "name": "Vue",
-        "logo": "assets/images/logos/vue.png"
+        "logo": "/logos/vue.png"
       },
       {
         "name": "Webpack",
-        "logo": "assets/images/logos/webpack.png"
+        "logo": "/logos/webpack.png"
       }
     ]
   },
@@ -158,17 +158,17 @@
     "detail": [
       {
         "name": "Github",
-        "icon": "assets/images/icons/github.svg",
+        "icon": "/icons/github.svg",
         "url": "https://github.com/theerickramer"
       },
       {
         "name": "LinkedIn",
-        "icon": "assets/images/icons/linkedin.svg",
+        "icon": "/icons/linkedin.svg",
         "url": "https://linkedin.com/in/theerickramer"
       },
       {
         "name": "Soundcloud",
-        "icon": "assets/images/icons/soundcloud.svg",
+        "icon": "/icons/soundcloud.svg",
         "url": "https://soundcloud.com/theerickramer"
       }
     ]

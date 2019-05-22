@@ -34,8 +34,17 @@ p {
   font-size: 1.25rem;
 }
 
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+
 main, footer {
   background: var(--black);
+}
+
+section {
+  min-height: 100vh;
 }
 
 #background-vid {
