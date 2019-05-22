@@ -7,23 +7,23 @@
   {
     "title": "Work",
     "detail": [
+       {
+        "name": "The Knot",
+        "description": "Software Engineer - Guest List Manager Application",
+        "logo": "/logos/the-knot.png",
+        "url": "https://www.theknot.com/gs/guest-list"
+      },
       {
         "name": "Showtime",
-        "description": "",
+        "description": "Senior Front End Developer",
         "logo": "/logos/showtime.png",
         "url": "https://www.sho.com"
       },
       {
         "name": "Kaplan Test Prep",
-        "description": "",
+        "description": "Front End Developer",
         "logo": "/logos/Kaplan.png",
         "url": "https://www.kaptest.com"
-      },
-      {
-        "name": "The Knot",
-        "description": "",
-        "logo": "/logos/the-knot.png",
-        "url": "https://www.theknot.com/gs/guest-list"
       }
     ]
   },

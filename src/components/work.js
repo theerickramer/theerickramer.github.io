@@ -27,7 +27,7 @@ const Work = () => (
         const { url, logo, name, description } = job
         return (
           <li className={styles.job} key={index}>
-            <a href={url}>
+            <a href={url} target="_blank">
               <img className={styles.logo} src={logo} alt={name} />
               <p>{description}</p>
             </a>
