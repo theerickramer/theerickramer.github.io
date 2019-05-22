@@ -24,6 +24,7 @@ h1 {
 }
 
 h2 {
+  margin-bottom: 20px;
   font-family: 'Karla', 'Helvetica', sans-serif;
   font-size: 2rem;
 }
@@ -32,19 +33,12 @@ a,
 button,
 p {
   font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 a {
   color: var(--white);
   text-decoration: none;
-}
-
-main, footer {
-  background: var(--black);
-}
-
-section {
-  min-height: 100vh;
 }
 
 #background-vid {
@@ -53,6 +47,7 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
+  width: 100vw;
   height: 100vh;
   object-fit: fill;
   z-index: -3;

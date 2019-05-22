@@ -5,4 +5,9 @@ section {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 0 20px;
+}
+
+main, footer {
+  background: var(--black);
 }

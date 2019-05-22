@@ -22,11 +22,11 @@ const Work = () => (
       }
     `}
     render={data => {
-      const { detail: jobs } = data.allDataJson.edges[0].node
+      const { title, detail: jobs } = data.allDataJson.edges[0].node
       const workDetail = jobs.map((job, index) => {
         const { url, logo, name, description } = job
         return (
-          <li key={index}>
+          <li className={styles.job} key={index}>
             <a href={url}>
               <img className={styles.logo} src={logo} alt={name} />
               <p>{description}</p>
@@ -36,7 +36,7 @@ const Work = () => (
       })
       return (
         <section>
-          <h2>Work</h2>
+          <h2>[ {title} ]</h2>
           <ul>{workDetail}</ul>
         </section>
       )
