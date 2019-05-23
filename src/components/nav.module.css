@@ -1,0 +1,28 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 20px;
+  width: 100%;
+  font-family: "Karla", "Helvetica", sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(var(--black), transparent)
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.item {
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  height: 40px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
