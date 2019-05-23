@@ -1,19 +1,19 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import styles from "./work.module.css"
+import styles from "./projects.module.css"
 
-const Work = () => (
+const Projects = () => (
   <StaticQuery
     query={graphql`
       query {
-        allDataJson(filter: { title: { eq: "Work" } }) {
+        allDataJson(filter: { title: { eq: "Projects" } }) {
           edges {
             node {
               title
               detail {
                 name
                 description
-                logo
+                image
                 url
               }
             }
@@ -22,13 +22,13 @@ const Work = () => (
       }
     `}
     render={data => {
-      const { title, detail: jobs } = data.allDataJson.edges[0].node
-      const workDetail = jobs.map((job, index) => {
-        const { url, logo, name, description } = job;
+      const { title, detail: projects } = data.allDataJson.edges[0].node
+      const projectsDetail = projects.map((project, index) => {
+        const { url, image, name, description } = project;
         return (
-          <li className={styles.job} key={index}>
+          <li className={styles.project} key={index}>
             <a href={url} target="_blank" rel="noopener noreferrer">
-              <img className={styles.logo} src={logo} alt={name} />
+              <img className={styles.image} src={image} alt={name} />
               <p>{description}</p>
             </a>
           </li>
@@ -37,11 +37,11 @@ const Work = () => (
       return (
         <section>
           <h2>[ {title} ]</h2>
-          <ul>{workDetail}</ul>
+          <ul>{projectsDetail}</ul>
         </section>
       )
     }}
   />
 )
 
-export default Work
+export default Projects

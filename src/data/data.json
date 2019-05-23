@@ -32,9 +32,9 @@
     "detail": [
       {
         "name": "RandoMOMA",
-        "description": "A beautiful random image from the MOMA collection",
+        "description": "Random images from the MOMA collection",
         "url": "http://randomoma.herokuapp.com",
-        "image": "/images/randomoma.pgn"
+        "image": "/images/randomoma.png"
       },
       {
         "name": "Hotlinks",

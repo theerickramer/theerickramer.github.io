@@ -1,10 +1,10 @@
-.job {
+.project {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 200px;
+  height: 300px;
 }
 
-.logo {
-  width: 200px;
+.image {
+  width: 300px;
 }
