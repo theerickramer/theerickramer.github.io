@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import { Element } from "react-scroll"
 import styles from "./skills.module.css"
 
 const Work = () => (
@@ -21,8 +22,8 @@ const Work = () => (
     `}
     render={data => {
       const { title, detail: skills } = data.allDataJson.edges[0].node
-      const workDetail = skills.map((skill, index) => {
-        const { url, logo, name, description } = skill;
+      const skillsDetail = skills.map((skill, index) => {
+        const { url, logo, name, description } = skill
         return (
           <li className={styles.skill} key={index}>
             <a href={url} target="_blank" rel="noopener noreferrer">
@@ -33,10 +34,12 @@ const Work = () => (
         )
       })
       return (
-        <section>
-          <h2>[ {title} ]</h2>
-          <ul className="responsive-grid-container">{workDetail}</ul>
-        </section>
+        <Element name="skills">
+          <section>
+            <h2>[ {title} ]</h2>
+            <ul className="responsive-grid-container">{skillsDetail}</ul>
+          </section>
+        </Element>
       )
     }}
   />

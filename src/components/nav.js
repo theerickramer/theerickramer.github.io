@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import { Link } from "react-scroll"
 import styles from "./nav.module.css"
 
 const Nav = () => (
@@ -37,16 +38,24 @@ const Nav = () => (
         <nav className={styles.nav}>
           <ul className={styles.items}>
             <li className={styles.item}>
-              <a href="#about">About</a>
+              <Link to="about" smooth={true} duration={500}>
+                About
+              </Link>
             </li>
             <li className={styles.item}>
-              <a>Work</a>
+              <Link to="work" smooth={true} duration={500}>
+                Work
+              </Link>
             </li>
             <li className={styles.item}>
-              <a>Projects</a>
+              <Link to="projects" smooth={true} duration={500} offset={-20}>
+                Projects
+              </Link>
             </li>
             <li className={styles.item}>
-              <a>Skills</a>
+              <Link to="skills" smooth={true} duration={500} offset={-40}>
+                Skills
+              </Link>
             </li>
             {linksDetail}
           </ul>

@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import { Element } from "react-scroll"
 import styles from "./work.module.css"
 
 const Work = () => (
@@ -35,10 +36,12 @@ const Work = () => (
         )
       })
       return (
-        <section>
-          <h2>[ {title} ]</h2>
-          <ul className="responsive-grid-container">{workDetail}</ul>
-        </section>
+        <Element name="work">
+          <section>
+            <h2>[ {title} ]</h2>
+            <ul className="responsive-grid-container">{workDetail}</ul>
+          </section>
+        </Element>
       )
     }}
   />
