@@ -7,6 +7,7 @@ import About from "../components/about"
 import Work from "../components/work"
 import Projects from "../components/projects"
 import Skills from "../components/skills"
+import "animate.css/animate.min.css"
 
 const IndexPage = () => (
     <Layout>

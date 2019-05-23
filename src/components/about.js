@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { Element } from "react-scroll"
+import ScrollAnimation from "react-animate-on-scroll"
 
 const About = () => (
   <StaticQuery
@@ -21,8 +22,12 @@ const About = () => (
       return (
         <Element name="about">
           <section>
-            <h2>[ {title} ]</h2>
-            <p>{description}</p>
+            <ScrollAnimation animateOnce={true} animateIn="zoomIn">
+              <h2>[ {title} ]</h2>
+            </ScrollAnimation>
+            <ScrollAnimation animateOnce={true} animateIn="fadeInUp" delay={250}>
+              <p>{description}</p>
+            </ScrollAnimation>
           </section>
         </Element>
       )

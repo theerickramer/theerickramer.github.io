@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { Element } from "react-scroll"
+import ScrollAnimation from "react-animate-on-scroll"
 import styles from "./work.module.css"
 
 const Work = () => (
@@ -27,18 +28,22 @@ const Work = () => (
       const workDetail = jobs.map((job, index) => {
         const { url, logo, name, description } = job
         return (
-          <li className={styles.job} key={index}>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-              <img className={styles.logo} src={logo} alt={name} />
-              <p>{description}</p>
-            </a>
-          </li>
+          <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
+            <li className={styles.job} key={index}>
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                <img className={styles.logo} src={logo} alt={name} />
+                <p>{description}</p>
+              </a>
+            </li>
+          </ScrollAnimation>
         )
       })
       return (
         <Element name="work">
           <section>
-            <h2>[ {title} ]</h2>
+            <ScrollAnimation animateOnce={true} animateIn="zoomIn" >
+              <h2>[ {title} ]</h2>
+            </ScrollAnimation>
             <ul className="responsive-grid-container">{workDetail}</ul>
           </section>
         </Element>
