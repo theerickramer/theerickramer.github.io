@@ -63,6 +63,10 @@
         "name": "AWS",
         "logo": "/logos/aws_logo_smile_1200x630.png"
       },
+            {
+        "name": "Babel",
+        "logo": "/logos/babel.png"
+      },
       {
         "name": "Express",
         "logo": "/logos/express.jpeg"
