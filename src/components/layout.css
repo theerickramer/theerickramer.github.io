@@ -11,3 +11,8 @@ section {
 main, footer {
   background: var(--black);
 }
+
+section {
+  margin: 0 auto;
+  width: 80%;
+}
