@@ -24,7 +24,7 @@ const Work = () => (
     render={data => {
       const { title, detail: jobs } = data.allDataJson.edges[0].node
       const workDetail = jobs.map((job, index) => {
-        const { url, logo, name, description } = job;
+        const { url, logo, name, description } = job
         return (
           <li className={styles.job} key={index}>
             <a href={url} target="_blank" rel="noopener noreferrer">

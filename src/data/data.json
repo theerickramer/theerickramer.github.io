@@ -7,7 +7,7 @@
   {
     "title": "Work",
     "detail": [
-       {
+      {
         "name": "The Knot",
         "description": "Software Engineer - Guest List Manager Application",
         "logo": "/logos/the-knot.png",
@@ -63,9 +63,17 @@
         "name": "AWS",
         "logo": "/logos/aws_logo_smile_1200x630.png"
       },
-            {
+      {
         "name": "Babel",
         "logo": "/logos/babel.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "/logos/CSS-Logo.png"
+      },
+            {
+        "name": "CSS Modules",
+        "logo": "/logos/css-modules.png"
       },
       {
         "name": "Express",
@@ -146,6 +154,14 @@
       {
         "name": "Ruby On Rails",
         "logo": "/logos/Ruby_On_Rails_Logo.png"
+      },
+            {
+        "name": "SASS",
+        "logo": "/logos/Sass.png"
+      },
+            {
+        "name": "Styled Components",
+        "logo": "/logos/styled-components.png"
       },
       {
         "name": "Vue",
