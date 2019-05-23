@@ -24,7 +24,7 @@ const Projects = () => (
     render={data => {
       const { title, detail: projects } = data.allDataJson.edges[0].node
       const projectsDetail = projects.map((project, index) => {
-        const { url, image, name, description } = project;
+        const { url, image, name, description } = project
         return (
           <li className={styles.project} key={index}>
             <a href={url} target="_blank" rel="noopener noreferrer">
@@ -37,7 +37,7 @@ const Projects = () => (
       return (
         <section>
           <h2>[ {title} ]</h2>
-          <ul>{projectsDetail}</ul>
+          <ul className="responsive-grid-container">{projectsDetail}</ul>
         </section>
       )
     }}

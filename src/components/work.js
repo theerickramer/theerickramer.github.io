@@ -37,7 +37,7 @@ const Work = () => (
       return (
         <section>
           <h2>[ {title} ]</h2>
-          <ul>{workDetail}</ul>
+          <ul className="responsive-grid-container">{workDetail}</ul>
         </section>
       )
     }}
