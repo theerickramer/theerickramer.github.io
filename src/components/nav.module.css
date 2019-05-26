@@ -4,16 +4,13 @@
   justify-content: flex-start;
   position: fixed;
   top: 0;
+  right: 0;
   width: 100%;
   padding: 20px;
   font-family: "Karla", "Helvetica", sans-serif;
   text-transform: uppercase;
   background: linear-gradient(var(--black), transparent);
   z-index: 1;
-}
-
-.expand {
-  margin: 0 40px;
 }
 
 .expand,
@@ -56,7 +53,7 @@
 .item {
   flex-direction: column;
   align-items: center;
-  margin-left: 20px;
+  margin-right: 20px;
   height: 40px;
   cursor: pointer;
 }
@@ -68,11 +65,13 @@
 
 @media (max-width: 480px) {
   .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    right: 0;
+    flex-direction: column;
     width: 200px;
     background: linear-gradient(to left, var(--black), transparent);
+  }
+
+  .expand {
+    align-self: flex-end;
   }
 
   .items {
