@@ -59,6 +59,10 @@
   {
     "title": "Skills",
     "detail": [
+            {
+        "name": "Angular",
+        "logo": "/logos/angular.png"
+      },
       {
         "name": "AWS",
         "logo": "/logos/aws_logo_smile_1200x630.png"
