@@ -39,36 +39,36 @@ const Nav = () => {
         })
 
         return (
-          <nav className={styles.nav}>
+          <nav className={cn(styles.nav, { [styles.open]: open })}>
             <div
-              className={cn(styles.expand, { [styles.open]: open })}
+              className={styles.expandContainer}
               onClick={() => setOpen(!open)}
-            />
-            {open && (
-              <ul className={styles.items}>
-                <li className={styles.item}>
-                  <Link to="about" smooth={true} duration={500}>
-                    About
-                  </Link>
-                </li>
-                <li className={styles.item}>
-                  <Link to="work" smooth={true} duration={500}>
-                    Work
-                  </Link>
-                </li>
-                <li className={styles.item}>
-                  <Link to="projects" smooth={true} duration={500} offset={-20}>
-                    Projects
-                  </Link>
-                </li>
-                <li className={styles.item}>
-                  <Link to="skills" smooth={true} duration={500} offset={-40}>
-                    Skills
-                  </Link>
-                </li>
-                {socialLinks}
-              </ul>
-            )}
+            >
+              <div className={cn(styles.expand, { [styles.open]: open })} />
+            </div>
+            <ul className={styles.items}>
+              <li className={styles.item}>
+                <Link to="about" smooth={true} duration={500}>
+                  About
+                </Link>
+              </li>
+              <li className={styles.item}>
+                <Link to="work" smooth={true} duration={500}>
+                  Work
+                </Link>
+              </li>
+              <li className={styles.item}>
+                <Link to="projects" smooth={true} duration={500} offset={-20}>
+                  Projects
+                </Link>
+              </li>
+              <li className={styles.item}>
+                <Link to="skills" smooth={true} duration={500} offset={-40}>
+                  Skills
+                </Link>
+              </li>
+              {socialLinks}
+            </ul>
           </nav>
         )
       }}
