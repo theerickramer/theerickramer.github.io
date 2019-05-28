@@ -26,6 +26,7 @@ const About = () => (
               <h2>[ {title} ]</h2>
             </ScrollAnimation>
             <ScrollAnimation animateOnce={true} animateIn="fadeInUp" delay={250}>
+              <img className="faceball" src="images/me.jpg" />
               <p>{description}</p>
             </ScrollAnimation>
           </section>
