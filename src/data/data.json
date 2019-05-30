@@ -59,7 +59,7 @@
   {
     "title": "Skills",
     "detail": [
-            {
+      {
         "name": "Angular",
         "logo": "/logos/angular.png"
       },
@@ -126,6 +126,10 @@
       {
         "name": "MongoDB",
         "logo": "/logos/mongodb-logo-rgb-j6w271g1xn.jpg"
+      },
+      {
+        "name": "Netlify",
+        "logo": "/logos/netlify.png"
       },
       {
         "name": "Node",
