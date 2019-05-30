@@ -84,6 +84,10 @@
         "logo": "/logos/express.jpeg"
       },
       {
+        "name": "Gatsby",
+        "logo": "/logos/gatsby.png"
+      },
+      {
         "name": "Git",
         "logo": "/logos/git.png"
       },
@@ -130,6 +134,10 @@
       {
         "name": "Netlify",
         "logo": "/logos/netlify.png"
+      },    
+      {
+        "name": "NextJS",
+        "logo": "/logos/next.png"
       },
       {
         "name": "Node",
