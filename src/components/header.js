@@ -19,7 +19,8 @@ const Header = () => (
         <header>
           <video
             id="background-vid"
-            src="clouds-timelapse.mp4"
+            src="/images/clouds.mov"
+            poster="/images/clouds.png"
             loop
             autoPlay
             muted

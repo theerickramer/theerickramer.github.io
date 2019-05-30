@@ -17,6 +17,7 @@
     "gatsby-source-filesystem": "^2.0.36",
     "gatsby-transformer-json": "^2.1.11",
     "gatsby-transformer-sharp": "^2.1.19",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-animate-on-scroll": "^2.1.5",
@@ -37,7 +38,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
