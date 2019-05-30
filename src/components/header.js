@@ -1,5 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
+import styles from "./header.module.css"
 
 const Header = () => (
   <StaticQuery
@@ -27,8 +28,8 @@ const Header = () => (
           />
           <div className="gradient" />
           <div className="vignette" />
-          <h1>{title}</h1>
-          <h2>{description}</h2>
+          <h1 className={styles.title}>{title}</h1>
+          <h2 className={styles.description}>{description}</h2>
         </header>
       )
     }}
