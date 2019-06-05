@@ -58,6 +58,11 @@ const Nav = () => {
                 </Link>
               </li>
               <li className={styles.item}>
+                <Link to="music" smooth={true} duration={500}>
+                  Music
+                </Link>
+              </li>
+              <li className={styles.item}>
                 <Link to="projects" smooth={true} duration={500} offset={-20}>
                   Projects
                 </Link>

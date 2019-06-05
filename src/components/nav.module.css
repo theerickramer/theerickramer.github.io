@@ -42,7 +42,7 @@
 }
 
 .expand.open:before {
-  transform: rotate(90deg) translate(2px, 0);
+  transform: rotate(90deg) translate(3px, 0);
 }
 
 .expand.open:after {
