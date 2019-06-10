@@ -109,6 +109,10 @@
         "logo": "/logos/css-modules.png"
       },
       {
+        "name": "D3",
+        "logo": "/logos/d3.png"
+      },
+      {
         "name": "Express",
         "logo": "/logos/express.jpeg"
       },
