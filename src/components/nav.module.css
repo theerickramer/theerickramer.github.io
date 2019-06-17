@@ -15,7 +15,7 @@
 }
 
 .expandContainer {
-  margin: 10px 40px 0 0;
+  margin-right: 20px;
   height: 20px;
 }
 
@@ -81,6 +81,10 @@
     width: 200px;
     background: none;
   }
+
+  .expandContainer {
+    margin: 20px 20px 0 0;
+  }
   
   .expand {
     align-self: flex-end;
@@ -89,7 +93,7 @@
   .items {
     flex-direction: column;
     padding: 40px;
-    background: linear-gradient(to left, var(--black), transparent);
+    background: linear-gradient(to left, var(--black) 25%, transparent);
   }
 
   .item {
