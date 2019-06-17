@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "eric-kramer",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "The offical website of Eric Kramer",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Eric Kramer <theerickramer@gmail.com>",
   "dependencies": {
     "animate.css": "^3.7.0",
     "classnames": "^2.2.6",
