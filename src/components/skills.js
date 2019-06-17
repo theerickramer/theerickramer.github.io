@@ -4,7 +4,7 @@ import { Element } from "react-scroll"
 import ScrollAnimation from "react-animate-on-scroll"
 import styles from "./skills.module.css"
 
-const Work = () => (
+const Skills = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -26,20 +26,20 @@ const Work = () => (
       const skillsDetail = skills.map((skill, index) => {
         const { url, logo, name, description } = skill
         return (
-          <ScrollAnimation animateOnce={true} animateIn="fadeInUp" >
-            <li className={styles.skill} key={index}>
+          <li className={styles.skill} key={index}>
+            <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img className={styles.logo} src={logo} alt={name} />
                 <p>{description}</p>
               </a>
-            </li>
-          </ScrollAnimation>
+            </ScrollAnimation>
+          </li>
         )
       })
       return (
         <Element name="skills">
           <section>
-            <ScrollAnimation animateOnce={true} animateIn="zoomIn" >
+            <ScrollAnimation animateOnce={true} animateIn="zoomIn">
               <h2>[ {title} ]</h2>
             </ScrollAnimation>
             <ul className="responsive-grid-container">{skillsDetail}</ul>
@@ -50,4 +50,4 @@ const Work = () => (
   />
 )
 
-export default Work
+export default Skills

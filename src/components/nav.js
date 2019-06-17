@@ -30,7 +30,7 @@ const Nav = () => {
         const socialLinks = links.map((link, index) => {
           const { name, icon, url } = link
           return (
-            <li className={styles.item}>
+            <li className={styles.item} key={`social-${index}`}>
               <a href={url}>
                 <img className={styles.icon} src={icon} alt={name} />
               </a>
@@ -47,27 +47,27 @@ const Nav = () => {
               <div className={cn(styles.expand, { [styles.open]: open })} />
             </div>
             <ul className={styles.items}>
-              <li className={styles.item}>
+              <li className={styles.item} key="about">
                 <Link to="about" smooth={true} duration={500}>
                   About
                 </Link>
               </li>
-              <li className={styles.item}>
+              <li className={styles.item} key="work">
                 <Link to="work" smooth={true} duration={500}>
                   Work
                 </Link>
               </li>
-              <li className={styles.item}>
+              <li className={styles.item} key="music">
                 <Link to="music" smooth={true} duration={500}>
                   Music
                 </Link>
               </li>
-              <li className={styles.item}>
-                <Link to="projects" smooth={true} duration={500} offset={-20}>
+              <li className={styles.item} key="projects">
+                <Link to="projects" smooth={true} duration={500}>
                   Projects
                 </Link>
               </li>
-              <li className={styles.item}>
+              <li className={styles.item} key="skills">
                 <Link to="skills" smooth={true} duration={500} offset={-40}>
                   Skills
                 </Link>

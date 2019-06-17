@@ -28,14 +28,16 @@ const Music = () => (
       const projectsDetail = projects.map((project, index) => {
         const { url, image, name, description } = project
         return (
-          <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
-            <li className={styles.project} key={index}>
+          <li className={styles.project} key={index}>
+            <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img className={styles.image} src={image} alt={name} />
-                <p>{name} ({description})</p>
+                <p>
+                  {name} ({description})
+                </p>
               </a>
-            </li>
-          </ScrollAnimation>
+            </ScrollAnimation>
+          </li>
         )
       })
       return (

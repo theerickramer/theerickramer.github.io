@@ -28,20 +28,20 @@ const Work = () => (
       const workDetail = jobs.map((job, index) => {
         const { url, logo, name, description } = job
         return (
-          <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
-            <li className={styles.job} key={index}>
+          <li className={styles.job} key={index}>
+            <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img className={styles.logo} src={logo} alt={name} />
                 <p>{description}</p>
               </a>
-            </li>
-          </ScrollAnimation>
+            </ScrollAnimation>
+          </li>
         )
       })
       return (
         <Element name="work">
           <section>
-            <ScrollAnimation animateOnce={true} animateIn="zoomIn" >
+            <ScrollAnimation animateOnce={true} animateIn="zoomIn">
               <h2>[ {title} ]</h2>
             </ScrollAnimation>
             <ul className="responsive-grid-container">{workDetail}</ul>
