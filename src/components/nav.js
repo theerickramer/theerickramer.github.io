@@ -57,11 +57,6 @@ const Nav = () => {
                   Work
                 </Link>
               </li>
-              <li className={styles.item} key="music">
-                <Link to="music" smooth={true} duration={500}>
-                  Music
-                </Link>
-              </li>
               <li className={styles.item} key="projects">
                 <Link to="projects" smooth={true} duration={500}>
                   Projects
@@ -70,6 +65,11 @@ const Nav = () => {
               <li className={styles.item} key="skills">
                 <Link to="skills" smooth={true} duration={500} offset={-40}>
                   Skills
+                </Link>
+              </li>
+              <li className={styles.item} key="music">
+                <Link to="music" smooth={true} duration={500}>
+                  Music
                 </Link>
               </li>
               {socialLinks}
