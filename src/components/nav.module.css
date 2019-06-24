@@ -17,6 +17,7 @@
 .expandContainer {
   margin-right: 20px;
   height: 20px;
+  z-index: 2;
 }
 
 .expand,
@@ -78,8 +79,7 @@
   .nav {
     flex-direction: column;
     align-items: flex-end;
-    width: 200px;
-    background: none;
+    background: linear-gradient(var(--black), transparent 10%);
   }
 
   .expandContainer {
@@ -92,7 +92,10 @@
   
   .items {
     flex-direction: column;
-    padding: 40px;
+    width: 100%;
+    top: -40px;
+    padding: 80px 40px;
+    z-index: 1;
     background: linear-gradient(to left, var(--black) 25%, transparent);
   }
 
