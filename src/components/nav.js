@@ -63,12 +63,12 @@ const Nav = () => {
                 </Link>
               </li>
               <li className={styles.item} key="skills">
-                <Link to="skills" smooth={true} duration={500} offset={-40}>
+                <Link to="skills" smooth={true} duration={500} offset={-100}>
                   Skills
                 </Link>
               </li>
               <li className={styles.item} key="music">
-                <Link to="music" smooth={true} duration={500}>
+                <Link to="music" smooth={true} duration={500} offset={-100}>
                   Music
                 </Link>
               </li>
