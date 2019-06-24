@@ -226,6 +226,11 @@
     "title": "Links",
     "detail": [
       {
+        "name": "Email",
+        "icon": "/icons/Envelope_font_awesome.svg",
+        "url": "mailto:theerickramer@gmail.com"
+      },
+      {
         "name": "Github",
         "icon": "/icons/github.svg",
         "url": "https://github.com/theerickramer"
