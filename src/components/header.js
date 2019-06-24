@@ -17,7 +17,7 @@ const Header = () => (
     render={data => {
       const { title, description } = data.site.siteMetadata;
       return (
-        <header>
+        <header className={styles.header}>
           <video
             id="background-vid"
             src="/images/clouds.mov"
