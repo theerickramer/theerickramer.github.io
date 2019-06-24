@@ -26,14 +26,14 @@ const Skills = () => (
       const skillsDetail = skills.map((skill, index) => {
         const { url, logo, name, description } = skill
         return (
-          <li className={styles.skill} key={index}>
-            <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
+          <ScrollAnimation animateOnce={true} animateIn="fadeInUp" key={index}>
+            <li className={styles.skill}>
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img className={styles.logo} src={logo} alt={name} />
                 <p>{description}</p>
               </a>
-            </ScrollAnimation>
-          </li>
+            </li>
+          </ScrollAnimation>
         )
       })
       return (

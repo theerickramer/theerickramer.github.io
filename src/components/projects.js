@@ -28,14 +28,14 @@ const Projects = () => (
       const projectsDetail = projects.map((project, index) => {
         const { url, image, name, description } = project
         return (
-          <li className={styles.project} key={index}>
-            <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
+          <ScrollAnimation animateOnce={true} animateIn="fadeInUp" key={index}>
+            <li className={styles.project}>
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img className={styles.image} src={image} alt={name} />
                 <p>{description}</p>
               </a>
-            </ScrollAnimation>
-          </li>
+            </li>
+          </ScrollAnimation>
         )
       })
       return (

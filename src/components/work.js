@@ -28,14 +28,14 @@ const Work = () => (
       const workDetail = jobs.map((job, index) => {
         const { url, logo, name, description } = job
         return (
-          <li className={styles.job} key={index}>
-            <ScrollAnimation animateOnce={true} animateIn="fadeInUp">
+          <ScrollAnimation animateOnce={true} animateIn="fadeInUp" key={index}>
+            <li className={styles.job}>
               <a href={url} target="_blank" rel="noopener noreferrer">
                 <img className={styles.logo} src={logo} alt={name} />
                 <p>{description}</p>
               </a>
-            </ScrollAnimation>
-          </li>
+            </li>
+          </ScrollAnimation>
         )
       })
       return (
