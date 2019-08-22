@@ -177,6 +177,10 @@
         "logo": "/logos/nodejs.png"
       },
       {
+        "name": "PostgreSQL",
+        "logo": "/logos/postgresql.png"
+      },
+      {
         "name": "Python",
         "logo": "/logos/python-logo-master-v3-TM.png"
       },
