@@ -7,7 +7,7 @@
   top: 0;
   right: 0;
   width: 100%;
-  min-height: 40px;
+  height: 40px;
   font-family: "Karla", "Helvetica", sans-serif;
   text-transform: uppercase;
   background: linear-gradient(var(--black), transparent);
